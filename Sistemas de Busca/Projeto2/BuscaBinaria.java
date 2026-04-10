@@ -1,4 +1,4 @@
-package projeto2;
+package Projeto2;
 
 public class BuscaBinaria {
 	public static int buscar(int[] array, int alvo) {

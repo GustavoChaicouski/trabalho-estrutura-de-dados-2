@@ -1,0 +1,19 @@
+# Eclipse metadata
+.metadata
+.runtime
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Arquivos de projeto específicos do Eclipse
+.project
+.classpath
+
+# Logs de erro e histórico
+.recommenders

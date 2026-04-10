@@ -1,4 +1,4 @@
-package projeto2;
+package Projeto2;
 
 import java.util.Arrays;
 import java.util.Random;
