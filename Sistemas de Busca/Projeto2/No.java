@@ -1,4 +1,4 @@
-package projeto2;
+package Projeto2;
 
 class No {
     int valor;
