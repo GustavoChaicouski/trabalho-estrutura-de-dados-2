@@ -1,13 +1,14 @@
 # Benchmark de Ordenação – Projeto III
 
-Disciplina: Estruturas, Pesquisa e Ordenação de Dados – 2026/1  
-Prof. MSc. Gabriel Passos de Jesus  
+Disciplina: Estruturas, Pesquisa e Ordenação de Dados – 2026/1
+Prof. MSc. Gabriel Passos de Jesus
 
 ---
 
 ## Algoritmos Implementados
 
-- **Bubble Sort** (Kayky Kmita)
+- Bubble Sort
+- Heap Sort
 
 ---
 
@@ -15,7 +16,9 @@ Prof. MSc. Gabriel Passos de Jesus
 
 ```
 Benchmark de Ordenação/
-├── BubbleSortBenchmark.java   # Implementação e benchmark do Bubble Sort
+├── BubbleSortBenchmark.java
+├── HeapSortBenchmark.java
+├── Relatorio_Benchmark_Ordenacao.pdf
 └── README.md
 ```
 
@@ -24,7 +27,8 @@ Benchmark de Ordenação/
 ## Como Executar
 
 ### Pré-requisitos
-- Java JDK 17 ou superior instalado
+
+- Java JDK 17 ou superior
 - Terminal (cmd, PowerShell ou Git Bash)
 
 ### Compilar
@@ -32,54 +36,55 @@ Benchmark de Ordenação/
 ```bash
 cd "Benchmark de Ordenação"
 javac BubbleSortBenchmark.java
+javac HeapSortBenchmark.java
 ```
 
 ### Executar
 
 ```bash
 java BubbleSortBenchmark
+java HeapSortBenchmark
 ```
 
 ---
 
-## O que o programa avalia
+## O que os programas avaliam
 
-| Cenário | Descrição | Complexidade Teórica |
-|---|---|---|
-| Melhor caso | Array já ordenado crescentemente | O(n) |
-| Caso médio | Array com elementos aleatórios | O(n²) |
-| Pior caso | Array ordenado decrescentemente | O(n²) |
-
-- Tamanhos testados: **n = 100, 500, 1000 e 5000**
-- Repetições por experimento: **30 execuções**
-- Métricas: tempo de execução (ms), comparações e trocas
-- Análise estatística: média, desvio padrão, mínimo e máximo
+- Melhor caso (array ordenado)
+- Caso médio (valores aleatórios)
+- Pior caso (array invertido)
 
 ---
 
-## Exemplo de Saída
+## Configuração dos testes
 
-```
-══════════════════════════════════════════════════
-  TAMANHO DO ARRAY: 1000
-══════════════════════════════════════════════════
-
-┌─────────────────────────────────────────────────┐
-│  MELHOR CASO  (array já ordenado) (n = 1000, 30 execuções)
-├─────────────────────────────────────────────────┤
-│  Tempo médio:            0,0200 ms
-│  Desvio padrão:          0,0050 ms
-│  Comparações (prática):                     999
-│  Comparações (teoria):                      999  O(n)
-│  Trocas médias:                               0
-└─────────────────────────────────────────────────┘
-```
+- Tamanhos: 100, 500, 1000, 5000
+- Execuções: 30 por cenário
+- Métricas:
+  - Tempo de execução
+  - Comparações
+  - Trocas
 
 ---
 
-## Relatório Técnico
+## Complexidade
 
-O relatório completo em PDF está disponível em:  
-`Relatorio_Benchmark_Ordenacao.pdf`
+| Algoritmo   | Melhor     | Médio      | Pior       |
+| ----------- | ---------- | ---------- | ---------- |
+| Bubble Sort | O(n)       | O(n²)      | O(n²)      |
+| Heap Sort   | O(n log n) | O(n log n) | O(n log n) |
 
-Contém: Introdução, Fundamentação Teórica, Análise Assintótica, Metodologia Experimental, Resultados, Discussão e Conclusão.
+---
+
+## Relatório
+
+O relatório completo está disponível no arquivo:
+
+Relatorio_Benchmark_Ordenacao.pdf
+
+---
+
+## Autores
+
+- Kayky Kmita
+- Jhonatan Rulian Roth
