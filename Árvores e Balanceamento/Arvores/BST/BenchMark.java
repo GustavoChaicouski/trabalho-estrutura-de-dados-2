@@ -1,4 +1,4 @@
-package Arvores;
+package Arvores.BST;
 
 import java.util.ArrayList;
 import java.util.Collections;
