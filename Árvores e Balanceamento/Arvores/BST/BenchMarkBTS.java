@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class BenchMark {
+public class BenchMarkBTS {
 
 	    private static final int TOTAL_EXECUCOES = 30;
 	    private static final int WARMUP = 5; // Execuções descartadas para aquecimento do JIT

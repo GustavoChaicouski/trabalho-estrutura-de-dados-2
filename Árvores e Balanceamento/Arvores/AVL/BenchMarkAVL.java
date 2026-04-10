@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class Benchmark {
+public class BenchMarkAVL {
 
     private static final int TOTAL_EXECUCOES = 30;
     private static final int WARMUP = 5;
