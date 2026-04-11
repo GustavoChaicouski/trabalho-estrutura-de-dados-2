@@ -27,19 +27,28 @@ Java ☕
 Git e GitHub
 
 🚀 Como executar
+
 Clone o repositório:
 git clone https://github.com/GustavoChaicouski/trabalho-estrutura-de-dados-2.git
+
 Abra o projeto em sua IDE de preferência
+
 Compile e execute a classe principal
 
 📊 Resultados
+
 Os resultados obtidos (tempo de execução, comparação entre estruturas, gráficos, etc.) serão apresentados conforme o andamento do projeto.
 
 🤝 Contribuidores
+
 Gustavo Chaicouski
+
 Jhonatann Roth
+
 João Los
+
 Gustavo Kloster
+
 Kayky Kmita
 
 📌 Observações
