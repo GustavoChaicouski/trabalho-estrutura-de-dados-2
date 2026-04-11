@@ -85,11 +85,3 @@ Ao executar qualquer um dos benchmarks, o console exibirá um relatório semelha
    Altura final da árvore (após extrações): 16
 
 
-##7. Observações Importantes
-Ao analisar os resultados gerados, considere os seguintes comportamentos teóricos e práticos inerentes a cada estrutura:
-
-Árvore Binária de Busca (BST): No Cenário B (dados ordenados), a BST sofre degradação severa, transformando-se em uma lista encadeada (complexidade O(n) de tempo e espaço de pilha). Isso pode resultar em erros de StackOverflowError para valores altos de N devido à recursão profunda.
-
-Árvore AVL: Garante altura rigidamente controlada (fator de balanceamento máximo de 1). Devido a isso, a Busca é extremamente rápida, porém o custo de Inserção e Remoção é levemente penalizado pelo alto número de rotações exigidas para manter o equilíbrio perfeito.
-
-Árvore Rubro-Negra: Oferece um relaxamento no balanceamento (o caminho mais longo não é maior que o dobro do caminho mais curto). Resulta em menos rotações durante a inserção e remoção se comparada à AVL, tornando-se mais performática em cenários de gravação intensiva, mantendo a complexidade de altura garantida de O(log n).
