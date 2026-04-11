@@ -63,7 +63,7 @@ A metodologia obedece às seguintes regras:
 ## 6. Exemplo de Saída no Terminal
 Ao executar qualquer um dos benchmarks, o console exibirá um relatório semelhante ao modelo abaixo:
 
-```text
+
 =======================================================
   CENÁRIO A: INSERÇÃO COM DADOS ALEATÓRIOS (CASO MÉDIO)
 =======================================================
@@ -83,6 +83,7 @@ Ao executar qualquer um dos benchmarks, o console exibirá um relatório semelha
    [Busca   ] Média:   1.9500 ms | Desvio Padrão:   0.2100 ms
    [Remoção ] Média:   5.1023 ms | Desvio Padrão:   0.9012 ms
    Altura final da árvore (após extrações): 16
+
 
 ##7. Observações Importantes
 Ao analisar os resultados gerados, considere os seguintes comportamentos teóricos e práticos inerentes a cada estrutura:
